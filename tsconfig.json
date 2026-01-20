@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@/fonts/*": [
+        "./public/fonts/*"
+      ],
+      "@/svg/*": [
+        "./public/svg/*"
+      ],
+      "@/img/*": [
+        "./public/img/*"
+      ],
+      "@/videos/*": [
+        "./public/videos/*"
+      ],
+      "@/context/*": [
+        "./src/providers/*"
+      ],
+      "@/atoms/*": [
+        "./src/components/atoms/*"
+      ],
+      "@/molecules/*": [
+        "./src/components/molecules/*"
+      ],
+      "@/organisms/*": [
+        "./src/components/organisms/*"
+      ],
+      "@/hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@/pages/*": [
+        "./src/pages/*"
+      ],
+      "@/globalStyles/*": [
+        "./src/styles/*"
+      ],
+      "@/pageStyles/*": [
+        "./src/styles/pages/*"
+      ]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
