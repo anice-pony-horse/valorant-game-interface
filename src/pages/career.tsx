@@ -27,4 +27,5 @@ const Career = () => {
     </Container>
   )
 }
+
 export default Career
