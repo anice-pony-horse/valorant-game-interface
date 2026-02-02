@@ -5,3 +5,4 @@ export default function dataHandler(req, res) {
 
   res.status(200).json(data[endpoint])
 }
+
